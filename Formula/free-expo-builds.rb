@@ -8,11 +8,11 @@ class FreeExpoBuilds < Formula
   depends_on "node"
 
   def install
-    bin.install "build.sh" => "free-expo-builds"
+    bin.install "build.sh" => "feb"
   end
 
   test do
     (testpath/"eas.json").write('{"build":{}}')
-    assert_match "Usage", shell_output("#{bin}/free-expo-builds 2>&1", 1)
+    assert_match "Usage", shell_output("#{bin}/feb 2>&1", 1)
   end
 end

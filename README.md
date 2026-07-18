@@ -16,6 +16,6 @@ brew trust ahmadatallah/tap
 
 ## Formulae
 
-| Formula | Description |
-| ------- | ----------- |
-| [`free-expo-builds`](https://github.com/ahmadatallah/free-expo-builds) | Build Expo apps locally with `eas build --local` — no queue, no credits |
+| Formula | Command | Description |
+| ------- | ------- | ----------- |
+| [`free-expo-builds`](https://github.com/ahmadatallah/free-expo-builds) | `feb` | Build Expo apps locally with `eas build --local` — no queue, no credits |
