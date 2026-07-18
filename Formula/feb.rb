@@ -1,8 +1,8 @@
-class FreeExpoBuilds < Formula
+class Feb < Formula
   desc "Build Expo apps locally with 'eas build --local' - no queue, no credits"
-  homepage "https://github.com/ahmadatallah/free-expo-builds"
-  url "https://github.com/ahmadatallah/free-expo-builds/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "33553dea2b25f6f665e436e1464085e7c7018f5efc41b68a8939285f0de9930d"
+  homepage "https://github.com/ahmadatallah/feb"
+  url "https://github.com/ahmadatallah/feb/archive/refs/tags/v1.1.2.tar.gz"
+  sha256 "298b041b9eee5721555c7758bdbe188e5ac155a42c0c3e1d7054e950bda2c96f"
   license "MIT"
 
   depends_on "node"
